@@ -17,5 +17,3 @@ router.get("/profile", verifyToken, (req, res) => {
     user: req.user,
   });
 });
-
-module.exports = router;"secretkey"
